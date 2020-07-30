@@ -1,0 +1,61 @@
+* {
+    background-color:#222222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+section#logo {
+    padding-top: 60px;
+}
+
+section#dados{
+    padding-top: 60px;
+    width: 200px;
+    margin: auto;
+}
+
+input#user, input#pass {
+    background-color: #424141;
+    text-align: left;
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #424141;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input#btn-logar {
+    background-color: #ff0057;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 8px 71px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input#btn-facebook {
+    background-color: #3b5998;
+    font-size: 10px;
+    border: none;
+    color: white;
+    padding: 5px 38.1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input#esquecisenha, input#cadastrar {
+    background-color: #424141;
+    font-size: 8px;
+    border: none;
+    color: #9c9c9c;
+    padding: 5px 17.4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
