@@ -1,2 +1,2 @@
-# evslink.github.io
-Meus projetos e estudos
+# JokenpoGame
+Jogo de pedra, papel, tesoura para estudo de JavaScript
