@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOKENPO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="principal">
+        <h1 id="titulo">JO KEN PO!</h1>
+        <div id="placar">
+            <div id="jogador">
+                <h2 id="jogador-nome">Você</h2>
+                <span id="jogador-pontos">0</span>
+                <ul id="jogador-escolha">
+                    <li><a id="jogador-escolha-1" onclick="jogar(1)"><img src="img/pedra.png"></a></li>
+                    <li><a id="jogador-escolha-2" onclick="jogar(2)"><img src="img/papel.png"></a></li>
+                    <li><a id="jogador-escolha-3" onclick="jogar(3)"><img src="img/tesoura.png"></a></li>
+                </ul>
+            </div>
+            <div id="versus">VS</div>
+            <div id="pc">
+                <h2 id="pc-nome">PC</h2>
+                <span id="pc-pontos">0</span>
+                <ul id="pc-escolha">
+                    <li><a id="pc-escolha-1"><img src="img/pedra.png"></a></li>
+                    <li><a id="pc-escolha-2"><img src="img/papel.png"></a></li>
+                    <li><a id="pc-escolha-3"><img src="img/tesoura.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mensagens">Vamos Jogar!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
